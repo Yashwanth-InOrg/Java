@@ -4,6 +4,6 @@ package Day1.Polymorphism.MethodOverriding;
 // Helper class
 class subclass1 extends Parent {
     // Method
-    void Print() { System.out.println("subclass1"); }
+    void Print() { System.out.println("sub_class1"); }
 }
 
