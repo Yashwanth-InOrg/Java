@@ -4,13 +4,32 @@
   - Multi Threading
   - Collections API
   - Exception Handling
-
-- IDE - Integrated Development Environment
-- Install JDK (LTS), java --version, javac --version
-- JVM - Run Java Application --> Byte Code --> javac filename.java
-- JRE - JVM + Libraries
-- JavaC - Converts Java File to .Class File (Byte Code)
 - Main - Method Signature --> java filename
 - Object Oriented (OOPS)
 - Strongly Type Language, Compiled
 - Block, Semi Colon
+
+- IDE - Integrated Development Environment
+- Install JDK (LTS - https://www.oracle.com/in/java/technologies/java-se-support-roadmap.html)
+  - JDK - Java Development Kit: https://www.geeksforgeeks.org/differences-jdk-jre-jvm/
+    - https://www.geeksforgeeks.org/compilation-execution-java-program/
+    - java --version, javac --version
+- JavaC - Converts Java File to .Class File (Byte Code)
+- JVM - Java Virtual Machine - Run Java Application --> Byte Code --> javac filename.java
+- JRE - Java Runtime Environment - JVM + Libraries
+- JIT - Just In Time Compiler
+
+OOPS
+- Abstraction - Hiding the Internal Implementation and Giving the Functionality to the User
+- Encapsulation 
+  - Access Specifiers - Protect Things from External World
+  - https://www.geeksforgeeks.org/access-modifiers-java/
+    - Public
+    - Private
+    - Protected
+    - Default
+  - Class & Objects - Bind/Combine Everything together
+    - Class - BluePrint of an Object
+    - Object - Real Instance of a Class
+- Inheritance
+- Polymorphism
