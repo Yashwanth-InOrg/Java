@@ -1,4 +1,4 @@
-package Day2;
+package Day2.CopyConstructor;
 
 public class Person {
     private String name;
@@ -9,10 +9,9 @@ public class Person {
         this.age = age;
     }
 
-    public Person(Person another) { // Deep Copy
+    public Person(Person another) { // Copy Constructor - Deep Copy
         this.name = another.name;
         this.age = another.age;
     }
-
     // Getters and setters for the instance variables
 }

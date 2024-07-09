@@ -11,12 +11,12 @@ public class Child extends Parent { // Class 2 - Sub-class - Extending parent cl
         Child child = new Child();
         firstName();
         child.surName();
-        // child.age = 20;
+        // child.age = 20; Throws an Error
     }
 }
 
 // Static vs Final: https://www.geeksforgeeks.org/java-final-vs-static-access-modifier/
 // TODO: Try Out Examples for Final and Static Attributes
 
-// You can call a static method using an object or directly
-// Normal/Regular Method it requires an object for calling it
+// You can call a static method using an object or directly within a class
+// Normal/Regular Method - requires an object for calling it

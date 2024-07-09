@@ -5,7 +5,6 @@ import java.util.List;
 
 public class ListExample {
     public static void main(String args[]) {
-        
         // Create a List of Strings
         List<String> list = new ArrayList<>();
         list.add("Abhinav");
@@ -18,3 +17,5 @@ public class ListExample {
         System.out.println("List elements: " + list);
     }
 }
+
+// TODO: Create an Example for all the 4 List Implementations

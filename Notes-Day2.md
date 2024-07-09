@@ -6,17 +6,18 @@ The changes being done in the called method, is not affected in the calling meth
 Deep Copy vs Shallow Copy: https://www.javatpoint.com/shallow-copy-vs-deep-copy-in-java
 - https://www.geeksforgeeks.org/difference-between-shallow-and-deep-copy-of-a-class/
 - https://www.geeksforgeeks.org/deep-shallow-lazy-copy-java-examples/
+- https://jojozhuang.github.io/programming/java-advanced-shallow-copy-vs-deep-copy/
 - Shallow Copy stores the references of objects to the original memory address. 
 - Shallow Copy reflects changes made to the new/copied object in the original object.
 
 - Deep copy stores copies of the object's value.
 - Deep copy doesn't reflect changes made to the new/copied object in the original object.
 
-**This vs Super:- Difference Between this() and super() Constructor - https://www.geeksforgeeks.org/super-and-this-keywords-in-java/
+This vs Super:- Difference Between this() and super() Constructor - https://www.geeksforgeeks.org/super-and-this-keywords-in-java/
 - The this() constructor refers to the current class object. 
 - It is used for invoking the current class method.
 - The super() constructor refers immediate parent class object. 
-- It is used for invoking parent class methods.**
+- It is used for invoking parent class methods.
 
 Static vs Final:
 - Static is used to access the attributes and methods directly with out the necessity of an Object
@@ -63,8 +64,7 @@ https://www.geeksforgeeks.org/can-we-override-default-method-in-java/
 - Facilitates testing: Interfaces facilitate testing by allowing software components to be tested 
   independently of each other, using mock objects that implement the interface.
 
-https://jojozhuang.github.io/programming/java-advanced-shallow-copy-vs-deep-copy/
-
+Default Methods:
 Interfaces could have only abstract methods before Java 8. 
 The classes separately provide implementation to these methods. 
 So, if a new method is to be added to an interface, 
@@ -72,21 +72,27 @@ then its implementation code has to be provided in the class implementing the sa
 For overcoming this issue, Java 8 introduced the concept of default methods that allow the 
 interfaces to have methods with implementation without affecting the classes that implement the interface.
 
-Class Extends a Class
-Class Implements an Interface
-Interface Extends an Interface
+Note: 
+- Class Extends a Class
+- Class Implements an Interface
+- Interface Extends an Interface
 
-Java is not 100% Object Oriented - Why --> Primitive Data Types
-Collections only works with Objects --> It wont work with primitive Data Types
-Generics - Type Safety
+Note: 
+- Java is not 100% Object-Oriented - Why --> Primitive Data Types
+- Collections only works with Objects --> It won't work with primitive Data Types
+- Generics - Type Safety
+- Collections - Class - Various Methods for performing different operations on collection
 
 ForName Method - https://www.geeksforgeeks.org/class-forname-method-in-java-with-examples/
 Copy Constructor - https://www.geeksforgeeks.org/copy-constructor-in-java/
-Collection Interface - https://www.geeksforgeeks.org/collection-interface-in-java-with-examples/
-  - https://www.javatpoint.com/collections-in-java
-Generics - https://www.geeksforgeeks.org/generics-in-java/
 Wrapper Classes - https://www.w3schools.com/java/java_wrapper_classes.asp
 AutoBoxing and UnBoxing - https://www.geeksforgeeks.org/autoboxing-unboxing-java/
 
-Collection - Interface
-Collections - Class - Various Methods for performing different operations on collection
+Collection Interface - https://www.geeksforgeeks.org/collection-interface-in-java-with-examples/
+  https://www.javatpoint.com/collections-in-java
+- Generics - https://www.geeksforgeeks.org/generics-in-java/
+  https://www.programiz.com/java-programming/generics
+- List: https://www.geeksforgeeks.org/list-interface-java-examples/
+- ArrayList vs LinkedList: https://www.geeksforgeeks.org/arraylist-vs-linkedlist-java/
+- Queue: https://www.geeksforgeeks.org/queue-interface-java/
+- Set: https://www.geeksforgeeks.org/set-in-java/

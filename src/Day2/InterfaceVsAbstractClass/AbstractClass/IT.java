@@ -5,4 +5,3 @@ class IT extends Subject {
     System.out.println("C , Java , C++");
   }
 }
- 

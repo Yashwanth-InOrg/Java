@@ -2,12 +2,12 @@ package Day2.ThisVsSuper;
 
 class Bike extends Vehicle {
     Bike() { // Constructors
-        this("Bike"); // constructor of class Bike
+        this("Bike"); // Constructor of Bike Class
         System.out.println("Bike is created.");
     }
 
     Bike(String brand) { // Constructor
-        super(); // it calls Vehicle(), the parent class
+        super(); // It calls Vehicle(), the Parent Class Constructor
         System.out.println("Bike brand is " + brand);
     }
 }
