@@ -5,6 +5,7 @@ public class Main { // Class 3 - Main class
         // Creating the Object of Rectangle class and using shape interface reference.
         Shape rectangle = new Rectangle(2, 3);
         System.out.println("Area of rectangle: " + rectangle.area());
+
         // Creating the Objects of circle class
         Shape circle = new Circle(2);
         System.out.println("Area of circle: " + circle.area());

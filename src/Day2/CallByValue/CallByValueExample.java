@@ -1,4 +1,4 @@
-package Day2;
+package Day2.CallByValue;
 
 public class CallByValueExample {
     static int add(int a, int b) { // a and b are the parameters for the add method.

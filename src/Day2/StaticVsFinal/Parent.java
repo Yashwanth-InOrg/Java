@@ -10,4 +10,3 @@ public class Parent { // Class 1 --> Super-class
         System.out.println("Last Name"); // Passing name and print it
     }
 }
- 
