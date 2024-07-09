@@ -1,5 +1,7 @@
 package Day1;
 
+import java.util.Arrays;
+
 public class DataTypes {
     public static void main(String[] args) {
         // Data Types: https://www.geeksforgeeks.org/data-types-in-java/
@@ -33,6 +35,14 @@ public class DataTypes {
         // Stack (Primitive Data Types are Present, References to the Object) vs Heap (Objects are Present)
         // TODO: Stack vs Heap - https://www.geeksforgeeks.org/stack-vs-heap-memory-allocation/
         // TODO: Arrays Example
+
+        int[] arr = {1, 2, 3, 4, 5};
+        System.out.println(Arrays.toString(arr));
+
+        int[] arr1=new int[5];
+        for(int i=0;i<arr1.length;i++)
+            arr1[i]=i+10;
+        System.out.println(Arrays.toString(arr1));
     }
 }
 
