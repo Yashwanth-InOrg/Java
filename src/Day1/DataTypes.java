@@ -16,8 +16,40 @@ public class DataTypes {
         System.out.println(myText);
 
         // TODO: All Primitive Types Max and Min Values
+        /*
+        SIGNED
+         * byte : -128 to 128 (1 byte)
+         * short : -32,768 to 32,767 (2 bytes) 
+         * int : -2,147,483,648 to 2,147,483,647(4 bytes) = 2^31
+         * long : -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807  (8 bytes) = 2^63
+        UNSIGNED
+         * float :	1.4e-045 to 3.4e+038 (4 bytes)
+         * double :	4.9e-324 to 1.8e+308 (8 bytes) 
+         * char : 0 to 65536 (2 bytes) = 2^16
+         * boolean : 1 byte 
+         * 
+         */
+
         // TODO: Default Values for Data Types in Global Scope and Local Scope
+        /*
+         * For numerical types = 0, 0.0f, 0.0d
+         * Boolean = false
+         * char  = NUL
+         */
+
         // TODO: Local Scope vs Global Scope Examples
+        /*
+          public class Main
+            {
+                int a = 100;
+                public static void main(String[] args) {
+                    Main obj = new Main();
+                    int a = 50;
+                    System.out.println(a);//prints 50
+                    System.out.println(obj.a);//prints 100
+                }
+            }
+         */
 
         // Non - Primitive Data Types
         // String Literals vs New String Object, String Constant/Literal Pool
@@ -31,8 +63,20 @@ public class DataTypes {
         System.out.println("hashCode: " + System.identityHashCode(s2));
 
         // Stack (Primitive Data Types are Present, References to the Object) vs Heap (Objects are Present)
+
         // TODO: Stack vs Heap - https://www.geeksforgeeks.org/stack-vs-heap-memory-allocation/
+        /*
+        The stack is used for static memory allocation and manages the execution of threads. Each thread has its own stack, which stores local variables, method call information, and references to objects in the heap. When a method is called, a new block is created on the top of the stack, and when the method execution is complete, the block is removed.
+
+        The heap is used for dynamic memory allocation and stores all Java objects. It is shared among all threads and is managed by the Java Virtual Machine (JVM). Objects created in the heap have global access and are subject to garbage collection, which automatically deallocates memory used by objects that are no longer referenced.
+         */
+
         // TODO: Arrays Example
+        /*  
+            int[] array;                declaration 
+            array = new int[100];       memory allocation
+         */
+
     }
 }
 
