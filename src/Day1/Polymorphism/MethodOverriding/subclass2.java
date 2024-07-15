@@ -6,6 +6,6 @@ class subclass2 extends Parent {
     // Method
     void Print() {
         // Print statement
-        System.out.println("subclass2");
+        System.out.println("sub_class2");
     }
 }

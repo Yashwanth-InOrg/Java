@@ -5,12 +5,14 @@ class GFG {
     // Main driver method
     public static void main(String[] args) {
         // Creating object of class 1
-        Parent a; // Defining/Declaring
+        Parent x;// Defining/Declaring
+        x = new Parent();
+        x.Print();
         // Now we will be calling print methods inside main() method
-        a = new subclass1(); // Initializing
-        a.Print();
-        a = new subclass2(); // Upcasting
-        a.Print();
+        x = new subclass1(); // Initializing
+        x.Print();
+        x = new subclass2(); // Upcasting
+        x.Print();
     }
 }
 
